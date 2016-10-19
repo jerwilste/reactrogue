@@ -2,7 +2,7 @@
   "name": "reactrogue",
   "version": "1.0.0",
   "description": "rogue-like game built with React and Node",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

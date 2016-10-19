@@ -1,0 +1,60 @@
+html, body {
+  background-color: black;
+}
+
+#view {
+  width: 792px;
+  height: 396px;
+  border: 1px solid grey;
+}
+
+.tile {
+  width: 12px;
+  height: 12px;
+  float: left;
+}
+
+.floor {
+  background-color: white;
+}
+
+.wall {
+  background-color: grey;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.gold {
+  background-color: gold;
+}
+
+.green {
+  background-color: green;
+}
+
+.dark {
+  background-color: black;
+}
+
+.whiteText {
+  color: white;
+}
+
+.status {
+  float: left;
+  padding-right: 15px;
+}

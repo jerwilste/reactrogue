@@ -1,0 +1,18 @@
+{
+  "name": "reactrogue",
+  "version": "1.0.0",
+  "description": "rogue-like game built with React and Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy W. Stewart",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.6.4"
+  }
+}

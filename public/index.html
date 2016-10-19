@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <link rel='stylesheet prefetch' href='main.css'>
+    
+        <title>React-Rogue</title>
+    
+    </head>
+    
+
+    
+    <body>
+        <div><h2>Welcome to React-Rogue... Don't Die!!!</h2></div>
+        <div id="view"></div>
+        <div class="whiteText">
+            <br/>
+            ---------------------------------------------------------------------------------------<br/>
+            <p>click once on the window with mouse cursor to activate game</p>
+            <p>use arrow keys to move</p>
+            <p>to attack an enemy just "bump" against them</p> 
+            <p>kill the boss on floor 4 to win</p>
+            <p>all maps and entity placement are randomly generated</p> 
+            
+            ---------------------------------------------------------------------------------------<br/>
+            <br/>
+            Color Legend:
+            <ul>
+              <li>Blue = you</li>
+              <li>Green = health </li>
+              <li>Red = enemy orc </li>
+              <li>Yellow = weapon upgrade</li>
+              <li>Purple = stairs to the next floor</li>
+            </ul>
+        </div>
+    </body>
+        
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://npmcdn.com/react@15.3.0/dist/react.min.js'></script>
+    <script src='https://npmcdn.com/react-dom@15.3.0/dist/react-dom.min.js'></script>
+    <script type="text/javascript" src="../app/controllers/gameController.client.js"></script>
